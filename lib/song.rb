@@ -6,5 +6,6 @@ class Song
   end
 
   def self.new_by_filename(filename)
-  end 
+    filename = filename.gsub(".mp3", "")
+  end
 end
