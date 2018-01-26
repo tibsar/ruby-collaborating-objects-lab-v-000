@@ -1,2 +1,4 @@
-class Song 
-end 
+class Song
+  def initialize(name)
+  end
+end
