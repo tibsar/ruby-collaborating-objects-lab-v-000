@@ -8,4 +8,7 @@ class MP3Importer
   def files
     @files = Dir.glob("#{path}/*.mp3").map{ |file| file.gsub("#{path}/", "") }
   end
+
+  def import 
+  end 
 end
