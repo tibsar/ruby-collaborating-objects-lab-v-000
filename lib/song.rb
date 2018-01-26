@@ -7,5 +7,6 @@ class Song
 
   def self.new_by_filename(filename)
     filename = filename.gsub(".mp3", "")
+    filename.split(" - ")
   end
 end
