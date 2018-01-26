@@ -18,5 +18,7 @@ class Song
     song = Song.new(song_name)
 
     song.artist = artist
+
+    song
   end
 end
