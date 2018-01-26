@@ -13,6 +13,7 @@ class Song
     artist = parts[0]
     song = parts[1]
     genre = parts[2]
-    
+
+    song = Song.new(song)
   end
 end
