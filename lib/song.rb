@@ -14,12 +14,11 @@ class Song
     song_name = parts[1]
     genre_name = parts[2]
 
-    artist = Artist.new(artist_name)
-    song = Song.new(song_name)
+    artist = Artist.new(artist_name)  #instance of artist class
+    song = Song.new(song_name)        #instance of song class
 
-    song.artist = artist
+    song.artist = artist             #associating the artist with the song instance
 
     song
   end
 end
-
