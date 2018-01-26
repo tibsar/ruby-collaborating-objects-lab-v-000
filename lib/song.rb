@@ -19,7 +19,7 @@ class Song
 
     song.artist = artist             #associating the artist with the song instance
     artist.add_song(song)
-    
+    artist.save
     song
   end
 end
