@@ -18,7 +18,7 @@ class Song
     song = Song.new(song_name)        #instance of song class
 
     song.artist = artist             #associating the artist with the song instance
-
+    artist.add_song(song)
     song
   end
 end
