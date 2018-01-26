@@ -11,9 +11,9 @@ class Song
     filename = filename.gsub(".mp3", "")
     parts = filename.split(" - ")
     artist_name = parts[0]
-    song = parts[1]
-    genre = parts[2]
+    song_name = parts[1]
+    genre_name = parts[2]
 
-    song = Song.new(song)
+    song = Song.new(song_name)
   end
 end
