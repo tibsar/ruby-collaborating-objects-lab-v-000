@@ -14,6 +14,7 @@ class Song
     song_name = parts[1]
     genre_name = parts[2]
 
+    artist = Artist.new(artist_name)
     song = Song.new(song_name)
   end
 end
